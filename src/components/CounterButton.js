@@ -1,4 +1,4 @@
-import React, {Component, PureComponent} from "react";
+import React, {Component} from "react";
 
 class CounterButton extends Component{
     // class CounterButton extends PureComponent {
