@@ -18,4 +18,4 @@ const Card = ({name, email, id}) => {
         </Fragment>
     )
 }
-export default Card
+export default Card 

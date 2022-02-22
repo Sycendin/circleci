@@ -20,14 +20,14 @@ jobs:
       - run: echo "npm installing"
       - run: npm install
       - run: CI=true npm run build
-  test:
-    docker:
-      - image: circleci/node:8.9
-    steps:
-      - checkout
-      - run : echo "testing stuff"
-      - run : npm install
-      - run : npm test
+  # test:
+  #   docker:
+  #     - image: circleci/node:8.9
+  #   steps:
+  #     - checkout
+  #     - run : echo "testing stuff"
+  #     - run : npm install
+  #     - run : npm test
 workflows:
   version: 2
   all_build_tests_echo:
