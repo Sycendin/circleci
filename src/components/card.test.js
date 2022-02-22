@@ -20,7 +20,7 @@ test('height is correct', () => {
 test('header is correct', () => {
     render(<Card id='1' name='Mr 1' email='baroqueworks@gmail.com'/>);
     render(<Card id='2' name='Mr 2' email='john@gmail.com'/>);
-    screen.debug();
+    // screen.debug();
     const card = screen.getByText('Mr 1'); 
-    expect(card).toHaveTextContent('Mr s1');
+    expect(card).toHaveTextContent('Mr 1');
 })
